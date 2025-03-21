@@ -1,1 +1,41 @@
 /*  your css code here. If applicable */
+body{
+	background-color: white;
+	background-color: #f4f4f4;
+}
+.photo-heading{
+	text-align: center;
+	color: white;
+}
+.animal-photo{
+	width: 200px;
+    margin: 10px;
+    display: inline-block;
+}
+.photo-container {
+     display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+    gap: 10px;
+}
+.img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+ .photo-heading {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+.animal-photos {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 20px;
+        }
+.hh{
+	text-align: center;
+	font-style: white;
+}
